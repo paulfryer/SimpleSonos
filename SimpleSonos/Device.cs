@@ -6,10 +6,14 @@ using System.Net.Http.Headers;
 using System.Threading.Tasks;
 using System.Xml.Linq;
 
-namespace DiscoverTest
+namespace SimpleSonos
 {
+
+
     public class Device : IDevice
     {
+        public string DeviceTypeCode { get; set; }
+
         public IPAddress IpAddress { get; set; }
 
         public string RoomName { get; set; }
@@ -161,12 +165,6 @@ namespace DiscoverTest
             var xml =
                 "<s:Envelope xmlns:s=\"http://schemas.xmlsoap.org/soap/envelope/\" s:encodingStyle=\"http://schemas.xmlsoap.org/soap/encoding/\"><s:Body><u:SetVolume xmlns:u=\"urn:schemas-upnp-org:service:RenderingControl:1\"><InstanceID>0</InstanceID><Channel>Master</Channel><DesiredVolume>" +
                 level + "</DesiredVolume></u:SetVolume></s:Body></s:Envelope>";
-
-           // using (var wc = new WebClient())
-           // {
-           //     wc.Headers.Add("SOAPACTION", "urn:schemas-upnp-org:service:RenderingControl:1#SetVolume");
-           //     await wc.UploadStringAsync(MakeUri(Endpoints.Control.RenderingControl), xml);
-           // }
 
             var httpClient = new HttpClient();
             var request = new HttpRequestMessage(HttpMethod.Post, MakeUri(Endpoints.Control.RenderingControl))

@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace DiscoverTest
+namespace SimpleSonos
 {
     public class Room : IRoom
     {

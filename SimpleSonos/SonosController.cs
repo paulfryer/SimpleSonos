@@ -6,8 +6,9 @@ using System.Threading;
 using System.Xml.Linq;
 using ManagedUPnP;
 using ManagedUPnP.Components;
+using Device = SimpleSonos.Device;
 
-namespace DiscoverTest
+namespace SimpleSonos
 {
     public class SonosController
     {
@@ -60,20 +61,10 @@ namespace DiscoverTest
             var roomName = GetRoomName(service);
             var sonosTypeName = GetSonosDeviceTypeName(service);
 
-            Device device;
-            switch (sonosTypeName)
+            var device = new Device
             {
-                case "Sonos PLAY":
-                    device = new Play();
-                    break;
-                case "Sonos PLAYBAR":
-                    device = new PlayBar();
-                    break;
-                default:
-                    device = new Device();
-                    break;
-            }
-
+                DeviceTypeCode = sonosTypeName
+            };
 
             var ipString = service.Device.DocumentURL
                 .Replace("http://", string.Empty)

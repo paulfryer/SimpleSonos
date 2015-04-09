@@ -1,9 +1,8 @@
-using System.Collections;
 using System.Collections.Generic;
 using System.Net;
 using System.Threading.Tasks;
 
-namespace DiscoverTest
+namespace SimpleSonos
 {
     public interface IPlayer
     {

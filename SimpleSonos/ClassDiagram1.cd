@@ -28,18 +28,16 @@
       <FileName>Program.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="DiscoverTest.Room">
+  <Class Name="SimpleSonos.Room">
     <Position X="12.25" Y="0.5" Width="2.25" />
     <TypeIdentifier>
-      <HashCode>IAAwAIABAAAQgAAAAIAIAAQAAgAAAECEgAAAAAAAgAA=</HashCode>
+      <HashCode>ICAQAIJJCAIQAAAACAAIAAQIQgAAAFAEAAIAAAAAgAA=</HashCode>
       <FileName>Room.cs</FileName>
     </TypeIdentifier>
-    <ShowAsCollectionAssociation>
-      <Field Name="sonosDevices" />
-    </ShowAsCollectionAssociation>
+    <Lollipop Position="0.2" />
   </Class>
-  <Class Name="DiscoverTest.SonosController">
-    <Position X="8" Y="0.75" Width="2.5" />
+  <Class Name="SimpleSonos.SonosController">
+    <Position X="1.5" Y="0.75" Width="2.5" />
     <TypeIdentifier>
       <HashCode>OQAABAAAgAACAAAAAAABAgACgAAAAgAAAAACABgAAAA=</HashCode>
       <FileName>SonosController.cs</FileName>
@@ -48,6 +46,23 @@
       <Field Name="Rooms" />
     </ShowAsCollectionAssociation>
   </Class>
+  <Interface Name="SimpleSonos.IRoom">
+    <Position X="5.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ICAQAAIAAAIQAAAAAAAAAAQIQgAAAAAAAAIAAAAAgAA=</HashCode>
+      <FileName>IPlayer.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Devices" />
+    </ShowAsCollectionAssociation>
+  </Interface>
+  <Interface Name="SimpleSonos.IDevice">
+    <Position X="8.25" Y="0.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIQAAAAAACAAAAYQgAAAAAAAAAAAgAAgAA=</HashCode>
+      <FileName>IPlayer.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
   <Delegate Name="DiscoverTest.SonosDeviceEventHandler&lt;T&gt;">
     <Position X="19" Y="2.5" Width="1.5" />
     <TypeIdentifier>
@@ -62,17 +77,17 @@
       <FileName>EventHandlers.cs</FileName>
     </TypeIdentifier>
   </Delegate>
-  <Delegate Name="DiscoverTest.RoomEventHandler&lt;T&gt;">
+  <Delegate Name="SimpleSonos.RoomEventHandler&lt;T&gt;">
     <Position X="19" Y="3.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACA=</HashCode>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>EventHandlers.cs</FileName>
     </TypeIdentifier>
   </Delegate>
-  <Delegate Name="DiscoverTest.RoomEventHandler">
+  <Delegate Name="SimpleSonos.RoomEventHandler">
     <Position X="20.75" Y="4" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>EventHandlers.cs</FileName>
     </TypeIdentifier>
   </Delegate>

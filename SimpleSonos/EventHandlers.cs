@@ -1,4 +1,4 @@
-﻿namespace DiscoverTest
+﻿namespace SimpleSonos
 {
     public delegate void DeviceEventHandler<in T>(IDevice sonosDevice, T args);
 

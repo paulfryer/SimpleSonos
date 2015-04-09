@@ -47,9 +47,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Devices\Device.cs" />
-    <Compile Include="Devices\Play.cs" />
-    <Compile Include="Devices\PlayBar.cs" />
+    <Compile Include="Device.cs" />
     <Compile Include="EventHandlers.cs" />
     <Compile Include="IPlayer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -57,11 +55,9 @@
     <Compile Include="SonosController.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="DiscoverTest.csproj" />
     <Content Include="Libraries\ManagedUPnP.dll" />
     <Content Include="Libraries\ManagedUPnP.pdb" />
     <Content Include="Libraries\ManagedUPnP.xml" />
-    <Content Include="Stoped.xml" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
