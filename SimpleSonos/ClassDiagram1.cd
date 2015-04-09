@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DiscoverTest.Play">
+    <Position X="14.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Devices\Play.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DiscoverTest.PlayBar">
+    <Position X="16.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Devices\PlayBar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DiscoverTest.SonosDevice">
+    <Position X="15.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAgAAQAAAAAACIAEAAAgAAAACAgACAARAAgAA=</HashCode>
+      <FileName>Devices\SonosDevice.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DiscoverTest.Program" Collapsed="true">
+    <Position X="19" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAABAMAAAAAAAAIEAAAAAAAAAAAAQEAEAAAABAAAAgA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DiscoverTest.Room">
+    <Position X="12.25" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>IAAwAIABAAAQgAAAAIAIAAQAAgAAAECEgAAAAAAAgAA=</HashCode>
+      <FileName>Room.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="sonosDevices" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="DiscoverTest.SonosController">
+    <Position X="8" Y="0.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>OQAABAAAgAACAAAAAAABAgACgAAAAgAAAAACABgAAAA=</HashCode>
+      <FileName>SonosController.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="Rooms" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Delegate Name="DiscoverTest.SonosDeviceEventHandler&lt;T&gt;">
+    <Position X="19" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>EventHandlers.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="DiscoverTest.SonosDeviceEventHandler">
+    <Position X="20.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>EventHandlers.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="DiscoverTest.RoomEventHandler&lt;T&gt;">
+    <Position X="19" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>EventHandlers.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="DiscoverTest.RoomEventHandler">
+    <Position X="20.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>EventHandlers.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

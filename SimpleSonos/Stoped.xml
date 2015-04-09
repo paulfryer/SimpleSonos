@@ -1,0 +1,17 @@
+﻿<Event xmlns="urn:schemas-upnp-org:metadata-1-0/AVT/" xmlns:r="urn:schemas-rinconnetworks-com:metadata-1-0/">
+  <InstanceID val="0">
+    <TransportState val="STOPPED"/>
+    <CurrentPlayMode val="NORMAL"/>
+    <CurrentCrossfadeMode val="0"/>
+    <NumberOfTracks val="8"/>
+    <CurrentTrack val="1"/>
+    <CurrentSection val="0"/>
+    <CurrentTrackURI val="x-rincon-mp3radio://206.217.213.235:8080"/>
+    <CurrentTrackDuration val="0:00:00"/>
+    <CurrentTrackMetaData val="&lt;DIDL-Lite xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:upnp=&quot;urn:schemas-upnp-org:metadata-1-0/upnp/&quot; xmlns:r=&quot;urn:schemas-rinconnetworks-com:metadata-1-0/&quot; xmlns=&quot;urn:schemas-upnp-org:metadata-1-0/DIDL-Lite/&quot;&gt;&lt;item id=&quot;-1&quot; parentID=&quot;-1&quot; restricted=&quot;true&quot;&gt;&lt;res protocolInfo=&quot;sonos.com-http:*:*:*&quot;&gt;x-sonosapi-stream:s99690?sid=254&amp;amp;flags=32&amp;amp;sn=0&lt;/res&gt;&lt;r:streamContent&gt;&lt;/r:streamContent&gt;&lt;r:radioShowMd&gt;&lt;/r:radioShowMd&gt;&lt;upnp:albumArtURI&gt;/getaa?s=1&amp;amp;u=x-sonosapi-stream%3as99690%3fsid%3d254%26flags%3d32%26sn%3d0&lt;/upnp:albumArtURI&gt;&lt;dc:title&gt;x-sonosapi-stream:s99690?sid=254&amp;amp;flags=32&amp;amp;sn=0&lt;/dc:title&gt;&lt;upnp:class&gt;object.item&lt;/upnp:class&gt;&lt;/item&gt;&lt;/DIDL-Lite&gt;"/>
+    <r:NextTrackURI val="mms://206.217.213.235:8080"/>
+    <r:NextTrackMetaData val="&lt;DIDL-Lite xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:upnp=&quot;urn:schemas-upnp-org:metadata-1-0/upnp/&quot; xmlns:r=&quot;urn:schemas-rinconnetworks-com:metadata-1-0/&quot; xmlns=&quot;urn:schemas-upnp-org:metadata-1-0/DIDL-Lite/&quot;&gt;&lt;item id=&quot;-1&quot; parentID=&quot;-1&quot; restricted=&quot;true&quot;&gt;&lt;res protocolInfo=&quot;mms:*:*:*&quot;&gt;mms://206.217.213.235:8080&lt;/res&gt;&lt;dc:title&gt;206.217.213.235:8080&lt;/dc:title&gt;&lt;upnp:class&gt;object.item&lt;/upnp:class&gt;&lt;/item&gt;&lt;/DIDL-Lite&gt;"/>
+    <r:EnqueuedTransportURI val="x-sonosapi-stream:s99690?sid=254&amp;flags=32&amp;sn=0"/>
+    <r:EnqueuedTransportURIMetaData val="&lt;DIDL-Lite xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:upnp=&quot;urn:schemas-upnp-org:metadata-1-0/upnp/&quot; xmlns:r=&quot;urn:schemas-rinconnetworks-com:metadata-1-0/&quot; xmlns=&quot;urn:schemas-upnp-org:metadata-1-0/DIDL-Lite/&quot;&gt;&lt;item id=&quot;-1&quot; parentID=&quot;-1&quot; restricted=&quot;true&quot;&gt;&lt;dc:title&gt;GotRadio Americana&lt;/dc:title&gt;&lt;upnp:class&gt;object.item.audioItem.audioBroadcast&lt;/upnp:class&gt;&lt;desc id=&quot;cdudn&quot; nameSpace=&quot;urn:schemas-rinconnetworks-com:metadata-1-0/&quot;&gt;SA_RINCON65031_&lt;/desc&gt;&lt;/item&gt;&lt;/DIDL-Lite&gt;"/>
+  </InstanceID>
+</Event>
